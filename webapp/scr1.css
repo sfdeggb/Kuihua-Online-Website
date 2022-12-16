@@ -1,0 +1,197 @@
+*{ padding:0px; margin:0; list-style:none; border: black;}
+.bg1{
+    width: 100%;
+}
+.max{
+    border-radius: 5px;
+    width:1200px;
+    height:420px;
+    margin:100px 50px;
+    position:relative;
+    overflow: hidden;
+    left: 300px;
+}
+.re{
+    border-radius: 5px;
+    width:1200px;
+    height:600px;
+    overflow:hidden;
+    position:relative;
+
+}
+.re li{
+    width:1200px;
+    height:500px;
+    overflow:hidden;
+    float:left;
+}
+.re ul{
+    position:absolute;
+    left:0;
+    top:0px;
+    width:6000px;
+}
+
+/*!*图片侧面点击的框*!*/
+/*.max ol{*/
+/*    border-radius: 5px;*/
+/*    position:absolute;*/
+/*    right:10px; bottom:10px;*/
+/*    line-height:20px;*/
+/*    text-align:center;*/
+/*}*/
+/*.max ol li{*/
+/*    border-radius: 5px;*/
+/*    float:left;*/
+/*    width:20px;*/
+/*    height:20px;*/
+/*    background:#fff;*/
+/*    border:1px solid #ccc;*/
+/*    margin-left:10px;*/
+/*    cursor:pointer;*/
+/*}*/
+/*.max ol li.re{*/
+/*    background:antiquewhite;*/
+/*}*/
+
+
+/*!*图片下面的1234的框*!*/
+/*#arr span{*/
+/*    border-radius: 8px;*/
+/*    width:10px;*/
+/*    height:30px;*/
+/*    position:absolute;*/
+/*    left:0;*/
+/*    top:50%;*/
+/*    margin-top:-20px;*/
+/*    background:#000;*/
+/*    cursor:pointer;*/
+/*    line-height:40px;*/
+/*    text-align:center;*/
+/*    font-weight:bold;*/
+/*    font-size:30px;*/
+/*    color:#fff;*/
+/*    opacity:0.5;*/
+/*    border:1px solid #fff;*/
+/*}*/
+/*#arr #right{*/
+/*    border-radius: 8px;*/
+/*    right:0;*/
+/*    left:auto;*/
+/*}*/
+.kuang .kuang1{
+    position: absolute;
+    top: 100%;
+    left: 15%;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang1>a{*/
+/*    !*position: relative;*!*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+.kuang .kuang2{
+    position: absolute;
+    top: 100%;
+    left: 49%;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang2>a{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    overflow: hidden;*/
+/*}*/
+.kuang .kuang3{
+    position: absolute;
+    top: 143%;
+    left: 49%;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang3>a{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    overflow: hidden;*/
+/*}*/
+.kuang .kuang4{
+    position: absolute;
+    top: 183%;
+    left: 15%;
+    width: 500px;
+    height: 600px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang4>a{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    overflow: hidden;*/
+/*}*/
+.kuang .kuang5{
+    position: absolute;
+    top: 226%;
+    left: 49%;
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang5>a{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    overflow: hidden;*/
+/*}*/
+.kuang .kuang6{
+    position: absolute;
+    top: 266%;
+    left: 15%;
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang6>a{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    overflow: hidden;*/
+/*}*/
+.kuang .kuang7{
+    position: absolute;
+    top: 269%;
+    left: 49%;
+    width: 500px;
+    height: 376px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+/*.kuang .kuang7>a{*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 80%;*/
+/*    overflow: hidden;*/
+/*}*/
+
+.sentence{
+    position: absolute;
+    left: 45%;
+    top: 450%;
+}
+.sentence .sen{
+    float: left;
+    font-size: 10px;
+    position: center;
+}
