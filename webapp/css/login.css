@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*更改默认值*/
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/*添加背景图片*/
+.main{
+    width: 100%;
+    height: 100%;
+    background: url("http://localhost:8080/demo1/photos/15.jpg") 100% 100%;
+}
+/*让输入框居中*/
+.loginFrame{
+    width: 700px;
+    height: 400px;
+    background: rgba(0,0,0,0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    /*添加边框圆角*/
+    border-radius: 10px;
+    /*添加边框挤下去*/
+    padding: 50px;
+    box-sizing: border-box;
+    /*添加阴影*/
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.6);
+}
+/*改变输入框的位置*/
+.loginFrame > div{
+    width: 350px;
+    height: 50px;
+    margin: 40px auto;
+    color: white;
+}
+/*改变标题*/
+.loginFrame > p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+/*改变输入框文字*/
+.loginFrame > div >span{
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px;
+}
+/*改变输入框样式*/
+.loginFrame >div input{
+    width: 100%;
+    height: 50%;
+    background: transparent;/*透明色*/
+    border: 0;
+    border-bottom: 1px solid white;/*添加底部边框*/
+    outline: none;
+    color: white;
+}
+/*登录*/
+.loginFrame .enterBut{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    /*渐变*/
+    background-image: linear-gradient(to right,pink,palevioletred);
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor: pointer;
+}
+.loginFrame .enterBut .p1{
+    position: absolute;
+    top: 78%;
+    left: 48%;
+}
+/*登录处，添加鼠标放上效果*/
+.loginFrame .enterBut:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,0.6) inset;
+}
+/*给输入框提醒文字改变颜色*/
+input::-webkit-input-placeholder{
+    color: #bdcada;
+}
+.loginFrame .register{
+    position: absolute;
+    left: 480px;
+    top: 280px;
+}
